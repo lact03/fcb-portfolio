@@ -1,0 +1,40 @@
+/*
+CSS Syntax:
+selector{
+	property: value;
+}
+*/
+
+* {
+	font-family: "roboto", sans-serif;
+}
+
+/* Type Selector or Element Selector */
+
+h1, p {
+	font-family: 'montserrat', sans-serif;
+}
+
+#profile {
+	height: 200px;
+	width: 200px;
+
+	border-radius: 50%;
+}
+
+body {
+	background-color: #FFEF2B !important;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23d3c544' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%23a79c5e' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%237b7277' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%234f4991' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23231FAA' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+}
+
+#landing{
+	height: 80vh;
+
+	display: flex;
+	flex-direction: column;
+	
+	justify-content: center;
+	align-items: center;
+}
